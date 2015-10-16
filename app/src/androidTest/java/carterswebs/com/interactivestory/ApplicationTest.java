@@ -1,4 +1,4 @@
-package teamtreehouse.com.interactivestory;
+package carterswebs.com.interactivestory;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
