@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/pageLayout"
+    android:id="@+id/storyLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="15dp"
     tools:context="carterswebs.com.interactivestory.ui.StoryActivity">
 
     <ImageView
@@ -25,5 +29,28 @@
         android:layout_alignLeft="@+id/storyImageView"
         android:layout_alignStart="@+id/storyImageView"
         android:layout_below="@+id/storyImageView"
+        android:lineSpacingMultiplier="1.2"
         android:text="@string/sampleText" />
+
+    <Button
+        android:id="@+id/choiceButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:text="@string/captionChoiceButton2"
+        android:textColor="#3a8aec" />
+
+    <Button
+        android:id="@+id/choiceButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/choiceButton2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/white"
+        android:text="@string/captionChoiceButton1"
+        android:textColor="#3a8aec" />
 </RelativeLayout>
