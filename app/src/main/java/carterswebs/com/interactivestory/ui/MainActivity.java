@@ -33,6 +33,13 @@ public class MainActivity extends Activity {
         });
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNameField.setText("");
+    }
+
+
     private void startStory(String name) {
         Intent storyIntent = new Intent(this,StoryActivity.class);
         storyIntent.putExtra(getString(R.string.key_name),name);
