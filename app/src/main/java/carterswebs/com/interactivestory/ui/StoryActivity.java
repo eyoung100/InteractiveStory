@@ -65,7 +65,7 @@ public class StoryActivity extends Activity {
         mTextView.setText(pageText);
         if (mCurrentPage.isFinal()) {
             mChoice1.setVisibility(View.INVISIBLE);
-            mChoice1.setText("PLAY AGAIN");
+            mChoice1.setText(R.string.captionPlayAgain);
             mChoice1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

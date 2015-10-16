@@ -13,4 +13,5 @@
     <string name="sampleText">You continue your course to Earth. Two days later, you receive a transmission from HQ saying that they have detected some sort of anomaly on the surface of Mars near an abandoned rover. They ask you to investigate, but ultimately the decision is yours because your mission has already run much longer than planned and supplies are low.</string>
     <string name="captionChoiceButton1">Continue home to Earth</string>
     <string name="captionChoiceButton2">Stop and investigate</string>
+    <string name="captionPlayAgain">PLAY AGAIN</string>
 </resources>
